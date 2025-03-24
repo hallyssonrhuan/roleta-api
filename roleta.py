@@ -63,7 +63,7 @@ def exibir_apostas(apostas):
 
 def solicitar_autorizacao():
     while True:
-        resposta = input("Deseja autorizar as apostas sugeridas? (s/n ou sim/nao): ").strip().lower()
+        resposta = input("Deseja autorizar as apostas sugeridas? (s/n): ").strip().lower()
         if resposta == "s" or resposta == "sim":
             print(f"\033[0;30;44mROBÔ <HALLYSSON C0D3R> REALIZANDO APOSTA\033[m")
             return True
