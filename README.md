@@ -8,12 +8,15 @@ Este projeto automatiza apostas em uma roleta online utilizando a biblioteca Sel
 - ChromeDriver (ou outro driver de navegador compatível)
 
 # Dependências
-pip install selenium
-pip install bs4
+- pip install selenium
+- pip install bs4
 
 Uso o navegador Brave, achei melhor por ele.
+
 A plataforma é a Esporte Da Sorte, uso a roleta EZUGI, e não se esqueça de alterar para 0 colunas (antes de apostar) igual no vídeo.
+
 Em apostas_sugeridas[:24] é a quantidade de números que ele verifica e aposta baseado nos vizinhos.
+
 Se quiser pode aumentar ou baixar, deixei esse que é uma boa média.
 
 # O VÍDEO ESTÁ NO MEU LINKEDIN
